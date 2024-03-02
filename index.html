@@ -3,33 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Portfolio</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">   
+   
+    
 </head>
 <body>
-    <header>
-        <nav>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Обо мне</a></li>
+                    <li class="nav-item"><a id="link" href="#">Портфолио</a></li>
+                    <li class="nav-item"><a href="#">Этапы робот</a></li>
+                    <li class="nav-item"><a href="#">Цены</a></li>
+                    <li class="nav-item"><a href="#">Обратная связь</a></li>
+                </ul>
+    
+            </nav>
             <ul>
-                <li><a href="#">Обо мне</a></li>
-                <li><a href="#">Портфолио</a></li>
-                <li><a href="#">Этапы робот</a></li>
-                <li><a href="#">Цены</a></li>
-                <li><a href="#">Обратная связь</a></li>
+                <li class="nav-item"><a class="nav-link" href="tel:+375297776068">+375297776068</a></li>
+                <li class="nav-item"><a class="nav-link" href="mailto:nokiaaikonmain@gmail.com">nokiaaikonmain@gmail.com</a></li>
                </ul>
+        </header>   
+           
+        <img class="photo" src="/img/photo.png" alt="main photo">
+        <main>
+            <div>
+                <p class="name">Александр Антропов</p>
+                <h1 class="title-h1">web-разработчик</h1> 
+            </div>        
+        </main>
 
-        </nav>
-        <ul>
-            <li><a href="tel:+375297776068">+375297776068</a></li>
-            <li><a href="mailto:nokiaaikonmain@gmail.com">nokiaaikonmain@gmail.com</a></li>
-           </ul>
-    </header>   
-       
-    <img src="/img/photo.png" alt="main photo">
-    <main>
-        <div>
-            <p>Александр Антропов</p>
-            <h1>web-разработчик</h1> 
-        </div>
-    </main>
+    </div>
+ 
     
    
     <footer>
